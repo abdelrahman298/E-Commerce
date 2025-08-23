@@ -11,7 +11,7 @@ import {
   Image,
   Input,
 } from "@chakra-ui/react";
-import { useAppSelector, useAppDispatch } from "../hooks";
+import { useAppSelector, useAppDispatch } from "../../app/hooks";
 import { IProduct } from "@/types/interface";
 import { removeFromCart, updateQuantity } from "@/lib/features/cartSlice";
 
